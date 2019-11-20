@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Barbearia
+		</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/css.css">
+	</head>
+	<body>
+	
+	<div class="topo">
+	<div class="img_topo">
+	<a href="https://pt-br.facebook.com/"><img src="assets/imagens/facebook.png"/></a>
+	<a href="https://www.instagram.com/accounts/login/?hl=pt-br"><img src="assets/imagens/instagram.png"/></a>
+	<a href="https://twitter.com/login?lang=pt"><img src="assets/imagens/twitter.png"/></a>
+	</div>
+	<div class="div2"><img src="assets/imagens/logop.png" style="height:140px; width:190px;"></div>
+	</div>
+	
+	<header class="header">
+	<div id="divBusca">
+	<label>
+		<input type="text" id="txtBusca" placeholder="O que você procura?"/>
+		<img id="lupa" src="assets/imagens/lupa.png" id="btnBusca" alt="Buscar"/>
+	</label>
+	</div>
+	
+	<nav class="menu">	
+		<ul class="menu--list">
+		  <li><a class="menu--link" href="#"> Home</a></li>
+		  <li><a class="menu--link" href="#servicos"> Serviços</a></li>
+		  <li><a class="menu--link" href="contatos.html"> Contatos</a></li>
+		  <li><a class="menu--link" href="admin/log_adm.html"> Admin</a></li>
+		<ul>
+	</nav>
+	</header>
+	<section>
+			
+	<div>
+		<img src="assets/imagens/fundo.jpg"/ class="imagem">
+	<div class="agendamento">
+		<b><a href="agendamento/agendamento.php">Faça seu Agendamento</a></b>
+	
+	</div>
+	</div>
+	<div class="servicos" id="servicos">
+		<h1>Serviços</h1>
+		<div class="not1" width="30%" height="30%">
+				<div class="cont">
+				<img src="assets/imagens/corte.jpg" alt="Avatar" class="image">
+				<div class="overlay">
+				<div class="text">
+				<h3>Corte de cabelo</h3>
+				<hr style = "width:80px;">
+				<!-- Trigger/Open The Modal -->
+				<button id="myBtn">Descrição</button>
+				</div>
+				</div>
+				</div>
+        </div>	
+			<!-- The Modal -->
+				<div id="myModal" class="modal">
+
+				<!-- Modal content -->
+				<div class="modal-content">
+				<span class="close">&times;</span>
+				<b>Corte de Cabelo: R$ 20,00 reais</b>
+				</div>
+
+				</div>	
+			<!--fim-->		
+        <div class="not2" width="30%" height="30%">
+				<div class="cont">
+				<img src="assets/imagens/barba.jpg" alt="Avatar" class="image">
+				<div class="overlay">
+				<div class="text">
+				<h3>Barba</h3>
+				<hr style = "width:80px;">
+				<button id="myBtn2">Descrição</button>
+				</div>
+				</div>
+				</div>
+            </div>
+			<!-- The Modal -->
+				<div id="myModal2" class="modal2">
+
+				<!-- Modal content -->
+				<div class="modal-content2">
+				<span class="close2">&times;</span>
+				<b>Barba: R$ 5,00 reais</b>
+				</div>
+
+				</div>	
+			<!--fim-->
+		<div class="not3" width="30%" height="30%">
+				<div class="cont">
+				<img src="assets/imagens/hidratacao.jpg" alt="Avatar" class="image">
+				<div class="overlay">
+				<div class="text">
+				<h3>Hidratação</h3>
+				<hr style = "width:80px;">
+				<button id="myBtn3">Descrição</button>
+				</div>
+				</div>
+				</div>
+            </div>
+		</div>
+		<!-- The Modal -->
+				<div id="myModal3" class="modal3">
+
+				<!-- Modal content -->
+				<div class="modal-content3">
+				<span class="close3">&times;</span>
+				<b style="color:yellow;text-align:center;">hidratacao: R$ 50,00 reais</b>
+				</div>
+
+				</div>	
+			<!--fim-->
+	</section>
+	<footer>
+		<i>Vitor Vinicius - Info 4 - DAW 2</i>
+	</footer>
+	<script>
+//-------------------------------------------------------------------------
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+//----------------------------------------------------------------------------
+// Get the modal
+var modal2 = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn2 = document.getElementById("myBtn2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks the button, open the modal 
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal2.style.display = "none";
+}
+//----------------------------------------------------------------------------
+//-------------------------------------------------------------------------
+// Get the modal
+var modal3 = document.getElementById("myModal3");
+
+// Get the button that opens the modal
+var btn3 = document.getElementById("myBtn3");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close3")[0];
+
+// When the user clicks the button, open the modal 
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal3.style.display = "none";
+}
+
+//----------------------------------------------------------------------------
+</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
+<script>
+function myFunction1() {
+  document.getElementById("demo1").innerHTML = "Corte de Cabelo por apenas R$20.00 Reais";
+}
+
+function myFunction2() {
+  document.getElementById("demo2").innerHTML = "Hidratação por apenas R$100.00 Reais";
+}
+function myFunction3() {
+  document.getElementById("demo3").innerHTML = "Corte de Barba por apenas R$5.00 Reais";
+}
+</script>
